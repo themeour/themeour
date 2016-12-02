@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Agile Css3 Engine</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+	  <link rel="dns-prefetch" href="https://code.jquery.com" />
+		<link rel="stylesheet" href="animate.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<script>
+			if (/mobile/i.test(navigator.userAgent))
+				document.documentElement.className += ' w-mobile';
+		</script>
+		<link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+
+				<script type="text/javascript" src="videomk.js"></script>
+				<link href="video-js.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<footer class="section header" id="page-nav-top">
+			<div class="w-row header">
+				<a href="https://github.com/daneden/animate.css"><img style="position: absolute; z-index:10 ; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+
+				<div class="w-col w-col-3 logo-bar">
+					<a class="w-inline-block logolink" href="index.html#page-nav-top" target="_self"><img class="company-logo" src="image/logo2.png" alt="logo"></a>
+				</div>
+
+				<div class="w-col w-col-9 nav-bar">
+					<a class="nav-links" href="index.html#page-nav-services" target="_self">CDN</a><a class="nav-links" href="doc.html" target="_self">Documentation</a><a class="nav-links" href="index.html#tutorial_back" target="_self">Tutorial</a><a class="nav-links" href="index.html#page-nav-contact" target="_self">About</a>
+				</div>
+			</div>
+
+			<div class="w-container hero-text">
+				<!--animate part start -->
+				<div class="wrap">
+				 <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">Theme Our</h1></span>
+
+				</div>
+				<div class="wraptwo">
+			    <form >
+			      <select class="input input--dropdown js--animations ">
+			        <optgroup label="Attention Seekers">
+			          <option value="bounce">bounce</i></option>
+			          <option value="flash">flash</option>
+			          <option value="pulse">pulse</option>
+			          <option value="rubberBand">rubberBand</option>
+			          <option value="shake">shake</option>
+			          <option value="swing">swing</option>
+			          <option value="tada">tada</option>
+			          <option value="wobble">wobble</option>
+			          <option value="jello">jello</option>
+			        </optgroup>
+
+			        <optgroup label="Bouncing Entrances">
+			          <option value="bounceIn">bounceIn</option>
+			          <option value="bounceInDown">bounceInDown</option>
+			          <option value="bounceInLeft">bounceInLeft</option>
+			          <option value="bounceInRight">bounceInRight</option>
+			          <option value="bounceInUp">bounceInUp</option>
+			        </optgroup>
+
+			        <optgroup label="Bouncing Exits">
+			          <option value="bounceOut">bounceOut</option>
+			          <option value="bounceOutDown">bounceOutDown</option>
+			          <option value="bounceOutLeft">bounceOutLeft</option>
+			          <option value="bounceOutRight">bounceOutRight</option>
+			          <option value="bounceOutUp">bounceOutUp</option>
+			        </optgroup>
+
+			        <optgroup label="Fading Entrances">
+			          <option value="fadeIn">fadeIn</option>
+			          <option value="fadeInDown">fadeInDown</option>
+			          <option value="fadeInDownBig">fadeInDownBig</option>
+			          <option value="fadeInLeft">fadeInLeft</option>
+			          <option value="fadeInLeftBig">fadeInLeftBig</option>
+			          <option value="fadeInRight">fadeInRight</option>
+			          <option value="fadeInRightBig">fadeInRightBig</option>
+			          <option value="fadeInUp">fadeInUp</option>
+			          <option value="fadeInUpBig">fadeInUpBig</option>
+			        </optgroup>
+
+			        <optgroup label="Fading Exits">
+			          <option value="fadeOut">fadeOut</option>
+			          <option value="fadeOutDown">fadeOutDown</option>
+			          <option value="fadeOutDownBig">fadeOutDownBig</option>
+			          <option value="fadeOutLeft">fadeOutLeft</option>
+			          <option value="fadeOutLeftBig">fadeOutLeftBig</option>
+			          <option value="fadeOutRight">fadeOutRight</option>
+			          <option value="fadeOutRightBig">fadeOutRightBig</option>
+			          <option value="fadeOutUp">fadeOutUp</option>
+			          <option value="fadeOutUpBig">fadeOutUpBig</option>
+			        </optgroup>
+
+			        <optgroup label="Flippers">
+			          <option value="flip">flip</option>
+			          <option value="flipInX">flipInX</option>
+			          <option value="flipInY">flipInY</option>
+			          <option value="flipOutX">flipOutX</option>
+			          <option value="flipOutY">flipOutY</option>
+			        </optgroup>
+
+			        <optgroup label="Lightspeed">
+			          <option value="lightSpeedIn">lightSpeedIn</option>
+			          <option value="lightSpeedOut">lightSpeedOut</option>
+			        </optgroup>
+
+			        <optgroup label="Rotating Entrances">
+			          <option value="rotateIn">rotateIn</option>
+			          <option value="rotateInDownLeft">rotateInDownLeft</option>
+			          <option value="rotateInDownRight">rotateInDownRight</option>
+			          <option value="rotateInUpLeft">rotateInUpLeft</option>
+			          <option value="rotateInUpRight">rotateInUpRight</option>
+			        </optgroup>
+
+			        <optgroup label="Rotating Exits">
+			          <option value="rotateOut">rotateOut</option>
+			          <option value="rotateOutDownLeft">rotateOutDownLeft</option>
+			          <option value="rotateOutDownRight">rotateOutDownRight</option>
+			          <option value="rotateOutUpLeft">rotateOutUpLeft</option>
+			          <option value="rotateOutUpRight">rotateOutUpRight</option>
+			        </optgroup>
+
+			        <optgroup label="Sliding Entrances">
+			          <option value="slideInUp">slideInUp</option>
+			          <option value="slideInDown">slideInDown</option>
+			          <option value="slideInLeft">slideInLeft</option>
+			          <option value="slideInRight">slideInRight</option>
+
+			        </optgroup>
+			        <optgroup label="Sliding Exits">
+			          <option value="slideOutUp">slideOutUp</option>
+			          <option value="slideOutDown">slideOutDown</option>
+			          <option value="slideOutLeft">slideOutLeft</option>
+			          <option value="slideOutRight">slideOutRight</option>
+
+			        </optgroup>
+
+			        <optgroup label="Zoom Entrances">
+			          <option value="zoomIn">zoomIn</option>
+			          <option value="zoomInDown">zoomInDown</option>
+			          <option value="zoomInLeft">zoomInLeft</option>
+			          <option value="zoomInRight">zoomInRight</option>
+			          <option value="zoomInUp">zoomInUp</option>
+			        </optgroup>
+
+			        <optgroup label="Zoom Exits">
+			          <option value="zoomOut">zoomOut</option>
+			          <option value="zoomOutDown">zoomOutDown</option>
+			          <option value="zoomOutLeft">zoomOutLeft</option>
+			          <option value="zoomOutRight">zoomOutRight</option>
+			          <option value="zoomOutUp">zoomOutUp</option>
+			        </optgroup>
+
+			        <optgroup label="Specials">
+			          <option value="hinge">hinge</option>
+			          <option value="rollIn">rollIn</option>
+			          <option value="rollOut">rollOut</option>
+			        </optgroup>
+
+			      </select>
+
+			      <button class="butt js--triggerAnimation">Animate it<i class="fa fa-level-down " aria-hidden="true"></i></button>
+
+			    </form>
+			  </div>
+			</div>
+		</footer>
+<!--animate part end-->
+
+		<div class="section" id="page-nav-services">
+			<div class="w-container service-columns">
+				<div class="w-row">
+
+
+
+			</div>
+		</div>
+
+		<div class="section dark web" id="page-nav-portfolio">
+			<div class="w-container">
+				<div class="w-row">
+					<div class="w-col w-col-8"><img src="image/pc2.jpg">
+					</div>
+					<div class="w-col w-col-4 portfolio-text">
+						<h3>Animate.CSS</h3>
+						<p>
+						animate.css is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
+
+					</p><a class="button" href="https://raw.github.com/daneden/animate.css/master/animate.css" download="animate.css">download</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="w-container">
+				<div class="w-row">
+					<div class="w-col w-col-5">
+						<div class="w-container portfolio-text left-up">
+							<h3>Wordpress,Joomla THEMES</h3>
+							<p>
+								Agile.Timeline and Agile.Tween encapsulates CSS3’s native animation and transition properties.
+								<br>
+								Different from traditional tween class, Agile.Tween’s performances is more quickly!
+								<br>
+								Agile.Timeline and Agile.Keyframes can help you to write forgetive animation effects.
+							</p><a class="button" href="https://github.com/a-jie/Agile" target="_blank">Visit Theme OUR</a>
+						</div>
+					</div>
+					<div class="w-col w-col-7 align-right">
+						<img src="image/rocket.png" alt="rocket">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+				<!--Call your modal-->
+      <div class="tutorial_back" id="tutorial_back">
+				<div class="break">
+                <h1>Tutorial</h1>
+				</div>
+				<div class="vid_btn"
+	            <a id="demo01" href="#animatedModal"><i class="fa fa-play-circle fa-5x" aria-hidden="true"></i></a>
+
+            </div>
+      </div>
+
+	        <!--DEMO01-->
+	        <div id="animatedModal">
+	            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+	            <div  id="btn-close-modal" class="close-animatedModal" >
+	                <img src="image/closebt.svg" alt="">
+
+	            <div class="modal-content">
+	                <!--Your modal content goes here-->
+
+									<div class="mover">
+										<video
+id="vid1"
+	class="video-js vjs-default-skin"
+	controls
+						width="1092" height="400"
+	 data-setup='{ "techOrder": ["youtube", "html5"], "sources": [{ "type": "video/youtube", "src": "https://youtu.be/ubyErpdQAbs"}] }'
+	 >
+									</div>
+              	<a href="#">Tutorial Direct Youtube</a>
+	            </div>
+
+	        </div>
+
+</div>
+
+		<div class="section bg-image" id="page-nav-about">
+			<div class="w-container hero-text about-text">
+
+         <h2>Wordpress And Joomla Template</h2>
+				 <h1>Theme OUR</h1>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="w-container">
+				<div class="w-row">
+					<div class="w-col w-col-6">
+						<div class="w-container portfolio-text left-up">
+							<h3>All Credit And Curtesy</h3>
+							<h5><a href="https://daneden.me/">Daniel Eden</a></h5>
+
+								<br>
+							<p>Daniel Eden is a Designer with a penchant for the web, typography, and interaction design. He prefers to refer to himself in the first person.</p>
+						</div>
+					</div>
+					<div class="w-col w-col-6 align-right dan">
+						<img src="image/daneden.jpeg" alt="daneden">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section dark" id="page-nav-contact">
+			<div class="w-container">
+				<div class="w-row">
+					<div class="w-col w-col-11 team-column ">
+						<div class="image-wrapper mk"><img src="image/head.png" alt="head.png">
+						</div>
+						<div class="info-wrapper">
+							<h3 class="name">Md.Mostafa Kamal</h3>
+							<div class="job-title">
+								CEO <a href="#">Nishi IT Ltd.</a> and <a href="#">Theme Our</a>
+							</div>
+							<p class="team-text">
+								I am an UX/UI Designer
+								<br>
+								I like Web design and developmet
+								<br>
+							This is Design  for my own work's. This project owner is @daneden!
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="w-container">
+				<div class="footer-logo"><img class="footlogo" src="image/logo2.png" width="65" alt="logo.png">
+				</div>
+				<div class="social-wrapper">
+					<div>
+						© 2017,<span><a href="https://www.themeour.com" target="_blank">Theme OUR</a></span>. All Rights Reserved.
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<!--animate part js-->
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script>
+		  function testAnim(x) {
+		    $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		      $(this).removeClass();
+		    });
+		  };
+
+		  $(document).ready(function(){
+		    $('.js--triggerAnimation').click(function(e){
+		      e.preventDefault();
+		      var anim = $('.js--animations').val();
+		      testAnim(anim);
+		    });
+
+		    $('.js--animations').change(function(){
+		      var anim = $(this).val();
+		      testAnim(anim);
+		    });
+		  });
+
+		</script>
+		<script>
+  $("#demo01").animatedModal();
+</script>
+<script src="animatedModal.min.js"></script>
+<script>
+
+            //demo 01
+            $("#demo01").animatedModal();
+
+            //demo 02
+            $("#demo02").animatedModal({
+                modalTarget:'modal-02',
+                animatedIn:'lightSpeedIn',
+                animatedOut:'bounceOutDown',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                },
+                beforeClose: function() {
+                    console.log("The animation was called");
+                },
+                afterClose: function() {
+                    console.log("The animation is completed");
+                }
+            });
+
+        </script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.1.1/Youtube.min.js"></script>
+	</body>
+</html>
