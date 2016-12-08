@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>mix1 example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="mix1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  </head>
+  <body>
+    <ul>
+      <li><button type="button" name="button"  class="filter btn btn-success" data-filter="all">All</button></li>
+      <li><button type="button" name="button" class="filter btn btn-info" data-filter=".web">Web Design</button></li>
+      <li><button type="button" name="button" class="filter btn btn-danger active" data-filter=".gra">Graphics</button></li>
+      <li><button type="button" name="button" class="filter btn btn-default" data-filter=".mob">Mobile Apps</button></li>
+      <li><button type="button" name="button" class="filter btn btn-warning" data-filter=".gam">Games</button></li>
+    </ul>
+
+    <div id="Container" class="container">
+      <div class="mix web"></div>
+      <div class="mix mob"></div>
+      <div class="mix web"></div>
+      <div class="mix gra"></div>
+      <div class="mix gam"></div>
+      <div class="mix gam"></div>
+      <div class="mix gra"></div>
+      <div class="mix web"></div>
+      <div class="mix mob"></div>
+
+
+      <div class="gap"></div>
+      <div class="gap"></div>
+      <script type="text/javascript">
+      $(function(){
+        $('#Container').mixItUp({
+          animation:{
+            effects:'fade rotateX(180deg)',
+          }
+        });
+      });
+
+      </script>
+
+
+    </div>
+  </body>
+</html>
